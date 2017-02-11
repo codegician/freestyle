@@ -46,15 +46,23 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/*============================
+COMMON THREADS
+=============================*/
+body {
+  color: black;
+  font-size: 20px;
+  /*line-height: 150%;*/
+}
 
 /*=============================
 STYLE
 ==============================*/
-
+/*background container style*/
 .background {
-  background-color: maroon;
+  background: rgb(240, 59, 102);
   width: auto;
-  position: fixed;
+  position: absolute;
   height: 100%;
 }
 
@@ -64,35 +72,89 @@ STYLE
   width: auto;
   height: 80%;
 }
+/*coloum style*/
+article, aside {
+  margin: 2.858736059%;
+  /*padding-left: 1%;*/
+  /*padding-right: 1%;*/
+}
 
-.left-field {
+article {
+  float: left;
+  width: 61.197026%;
+  padding: 1%;
+}
+
+aside {
+  float: right;
+  width: 23.3680297%;
+  /*margin: 0 auto;*/
+  padding: 1%;
+}
+/*content style left field*/
+.header{
+  margin-top: 1%;
+  padding-top: 1%;
+  /*height: 25%;*/
+}
+h1, h3 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   display: inline-block;
-  position: relative;
-  width: 60%
-  top: 5px:
+  margin: 1%;
 }
-.right-field {
-  display: inline-block;
-  position: relative;
-  width: 39%
+ h1 {
+   float: left;
+   /*width: 30%;*/
+   font-size: 42px;
+   margin-bottom: 2px;
+   /*padding-bottom: 0;*/
+ }
+h3 {
+  float: right;
+  /*width: 15%;*/
+  font-size: 20px;
+  margin-bottom: 0;
+  padding-right: 11%;
+  text-align: right;
+}
+/*img responsive style*/
+img {
+  max-width: 100%;
+  float: left;
+}
+/*content style right field */
+h2 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 100px;
+  /*width: 30%;*/
+  float: right;
+  margin: 0;
+}
 
+.mantra {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: right;
+  font-size: 20px;
+  text-align: right;
+  padding: 20% 0 10% 10%;
+}
+
+.vertical {
+    writing-mode:tb-rl;
+    -webkit-transform:rotate(180deg);
+    -moz-transform:rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform:rotate(180deg);
+    transform: rotate(180deg);
+}
+
+p {
+  clear: both;
 }
 
 
-.image-block {
-  display: inline-block;
 
-}
-
-h1 {
-  padding: o;
-  font-size: 50px;
-  font-family: helvetica;
-
-}
-
-
-/* idk
+/* headed in a different direction
 
 
 .owl{
