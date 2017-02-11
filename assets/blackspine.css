@@ -62,7 +62,7 @@ STYLE
 .background {
   background: rgb(239, 30, 79);
   width: auto;
-  position: absolute;
+  position: fixed;
   height: 100%;
 }
 
